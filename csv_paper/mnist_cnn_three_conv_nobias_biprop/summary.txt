@@ -1,0 +1,37 @@
+Best accuracy test data:
+Index: 83 Iteration: 41500 Epoch: 84
+Test data: 0.9813
+Test data with noise: 0.9346
+Test data with FGSM: 0.2415
+Sigmoid rate of maximum output of noise over real: 0.5000016700055778
+Softmax rate of maximum output of noise over real: 0.99826765
+
+Best accuracy test data with noise:
+Index: 97 Iteration: 48500 Epoch: 98
+Test data: 0.9807
+Test data with noise: 0.9365
+Test data with FGSM: 0.242
+Sigmoid rate of maximum output of noise over real: 0.5000048300466583
+Softmax rate of maximum output of noise over real: 0.99915195
+
+Best accuracy test data with FGSM:
+Index: 96 Iteration: 48000 Epoch: 97
+Test data: 0.9795
+Test data with noise: 0.9318
+Test data with FGSM: 0.246
+Sigmoid rate of maximum output of noise over real: 0.5000055500616057
+Softmax rate of maximum output of noise over real: 0.9982053
+
+Best sigmoid rate of maximum output of noise over real: 0.500000650000845
+Index: 87 Iteration: 43500 Epoch: 88
+Accuracy:
+Test data: 0.9803
+Test data with noise: 0.9339
+Test data with FGSM: 0.2382
+
+Best softmax rate of maximum output of noise over real: 0.41650623
+Index: 3 Iteration: 1500 Epoch: 4
+Accuracy:
+Test data: 0.9633
+Test data with noise: 0.8512
+Test data with FGSM: 0.1485
