@@ -28,9 +28,9 @@ python <dataset>_<model>.py <learning>
 
 \<model\>:
 * nn_no_hidden: Bidirectional propagation of errors on fully connected neural network without hidden layer
-* nn_one_hidden: Bidirectional propagation of errors on fully connected neural network without hidden layer
-* nn_two_hidden: Bidirectional propagation of errors on fully connected neural network without hidden layer
-* nn_four_hidden: Bidirectional propagation of errors on fully connected neural network without hidden layer
+* nn_one_hidden: Bidirectional propagation of errors on fully connected neural network with one hidden layer
+* nn_two_hidden: Bidirectional propagation of errors on fully connected neural network with two hidden layers
+* nn_four_hidden: Bidirectional propagation of errors on fully connected neural network with four hidden layers
 * cnn_three_conv: Bidirectional propagation of errors on convolutional neural network with three convolutional layers
 * gan_cnn_nn_one_hidden: Hybrid adversarial networks on fully connected neural network with one hidden layer
 * gan_cnn_two_conv: Hybrid adversarial networks on convolutional neural network with two convolutional layers ([infoGAN](https://arxiv.org/abs/1606.03657) architecture for MNIST)
