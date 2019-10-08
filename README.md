@@ -1,7 +1,9 @@
 # Bidirectional Learning for Robust Neural Networks
 This repository contains the complete project for:
 
-Sidney Pontes-Filho and Marcus Liwicki. "[Bidirectional Learning for Robust Neural Networks](https://arxiv.org/abs/1805.08006)". arXiv. 2018.
+Sidney Pontes-Filho and Marcus Liwicki. "[Bidirectional Learning for Robust Neural Networks](https://ieeexplore.ieee.org/document/8852120)". 2019 International Joint Conference on Neural Networks (IJCNN), Budapest, Hungary, 2019, pp. 1-8.
+
+[arXiv Preprint](https://arxiv.org/abs/1805.08006)
 
 Dependencies used:
 * Python 3.6.4
@@ -55,6 +57,26 @@ Creating CSV and plots after training and testing:
 python utils_csv.py
 ```
 
+For CIFAR-100 dataset, just replace the following lines of code of the scripts for CIFAR-10 dataset:
+
+```
+from keras.datasets import cifar10
+```
+to
+```
+from keras.datasets import cifar100 as cifar10
+```
+
+and
+
+```
+num_classes = 10
+```
+to
+```
+num_classes = 100
+```
+
 Code references for this repository:
 
 https://github.com/martin-gorner/tensorflow-mnist-tutorial
@@ -62,3 +84,20 @@ https://github.com/martin-gorner/tensorflow-mnist-tutorial
 https://github.com/hwalsuklee/tensorflow-generative-model-collections
 
 https://github.com/wiseodd/generative-models
+
+## Citation
+
+```
+@INPROCEEDINGS{8852120,
+author={S. {Pontes-Filho} and M. {Liwicki}},
+booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
+title={Bidirectional Learning for Robust Neural Networks},
+year={2019},
+volume={},
+number={},
+pages={1-8},
+keywords={adversarial example defense;noise defense;bidirectional learning;hybrid neural network;Hebbian theory},
+doi={10.1109/IJCNN.2019.8852120},
+ISSN={},
+month={July},}
+```
